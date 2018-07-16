@@ -1,0 +1,73 @@
+/* base styling */
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+}
+
+div > div{
+	position: relative;
+}
+
+div > div > div {
+	margin: 10px;
+	background-color: #D3D3D3;
+	border: 1px solid;
+}
+
+div > h2 {
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	border: 1px solid;
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+}
+
+p {
+	padding: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	font-size: 125%;
+}
+
+.beef {
+	background-color: #e60000;
+}
+
+.chicken {
+	background-color: #ffe0bd;
+}
+
+.sushi {
+	background-color: #006994;
+}
+
+.row {
+	width: 100%;
+}
+
+/* tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 50%;
+		float: left;
+	}
+	#savas {
+		clear:left;
+	}
+}
+/* desktop view */
+@media (min-width: 992px) {
+	.col-lg-4 {
+		width: 33.33%;
+		float: left;
+	}
+}
