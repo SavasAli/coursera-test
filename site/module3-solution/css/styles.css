@@ -34,7 +34,8 @@ section div h2 {
 }
 
 li a {
-    font-size; 3em;
+    font-size: 1.3em;
+    background-color: white;
 }
 
 section.col-xs-12 {
