@@ -1,44 +1,50 @@
-.navbar-default .navbar-brand {
-    color: black;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
-    border-color: black;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: black;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: black;
-}
-
 #header-nav {
-	background-color: #A9A9A9;
+    background-color: #A9A9A9;
+    border-radius: 0;
+    border: 0;
+
 }
 
-button {
- 	color: black;
- }
-
-section div div {
-	background-color: #A9A9A9;
-	margin: 5px;
-	padding: 5px;
+.navbar-brand h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-section div h2 {
-	margin: 0px;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000000;
 }
 
-li a {
-    font-size: 1.3em;
-    background-color: white;
+
+#collapsable-nav a {
+    background-color: #ffffff;
 }
 
-section.col-xs-12 {
-    background-color: #C0C0C0;
-    height: 1000px;
+.navbar-header > a.navbar-brand {
+    color: #000000;
+}
+
+#nav-list > li > a {
+    font-size: 1.25em;
+    color: #000000;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+div div {
+    background-color: #A9A9A9;
+}    
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    padding: 10px;
+    font-weight: bold;
 }
